@@ -1,0 +1,177 @@
+body{
+	width: 100%;
+	background-color: #f1f1f1;
+	margin: 0;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+#header{
+	text-align: center;
+	color: #0f0;
+}
+
+/* navigation bar */
+.nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: #333;
+	overflow: hidden;
+}
+.nav ul li{
+	display: inline-block;
+}
+.nav li a{
+	display: block;
+	padding: 14px 16px;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+}
+.nav ul li:hover{
+	background-color: #4CAF50;
+}
+#bg-image{
+	width: 100%;
+}
+
+/* Gallery */
+.container{
+	width: 100%;
+}
+
+.contain{
+	clear: both;
+}
+
+#science, #arts, #entre{
+	float: left;
+}
+
+.contain figcaption{
+	background-color: #fff;
+	text-align: center;
+	padding: 3px 0px;
+	letter-spacing: 2px;
+}
+.contain figure:hover{
+	border: solid;
+	box-shadow: 5px 5px 2px grey;
+	border-color: #fff;
+	cursor: pointer;
+}
+.alumni{
+	width: 35%;
+	margin: auto;
+	background-color: red;
+	-webkit-animation: mymove 5s infinite;
+	animation: mymove 5s infinite;
+	clear: both;
+}
+.alumni img{
+	width: 100%;
+	margin: auto;
+}
+.alumni figcaption{
+	background-color: #fff;
+	text-align: center;
+	padding: 3px 0px;
+	letter-spacing: 2px;
+}
+
+@keyframes mymove{
+	from {background-color: red;}
+	to {background-color: blue;}
+}
+@-webkit-keyframes mymove{
+	from{background-color: red;}
+	to{background-color: blue;}
+}
+#pioneer{
+	border-radius: 50%;
+}
+.aside{
+	width: 100%;
+}
+
+/* ========== NewsLetter ========= */
+.aside aside{
+	margin-left: 50px;
+	float: left;
+	width: 40%;
+	border: 1px solid #4CAF50;
+	background-color: #fff;
+	margin-bottom: 20px;
+}
+.aside h2{
+	text-align: center;
+	color: blue;
+}
+.aside li {
+	margin-top: 12px;
+}
+
+.fn {
+	margin-left: 30px;
+	margin-top: 30px;
+}
+.article{
+	width: 80%;
+	margin: auto;
+}
+.details{
+	text-align: center;
+}
+
+/* =========== Login Form ========= */
+.form{
+	float: right;
+	background-color: #fff;
+	width: 40%;
+	margin-right: 50px;
+	margin-bottom: 20px;
+}
+.form input:not(#submit){
+	display: block;
+	border: none;
+	border-bottom: 2px solid #999;
+	width: 80%;
+	box-sizing: border-box;
+	position: relative;
+}
+#submit{
+	background-color: #4CAF50;
+	border: none;
+	padding: 6px 10px;
+	color: #fff;
+	box-sizing: border-box;
+	margin-bottom: 40px;
+	right: 20;
+}
+#submit:hover{
+	cursor: pointer;
+	box-shadow: 5px 5px 2px grey;
+
+}
+.form input:focus:not(#submit){
+	border-color: #4CAF50;
+	padding: 10px 5px 5px 5px;
+}
+
+/*footer section */
+footer{
+	clear: both;
+	background-color: #333;
+}
+
+footer p{
+	font-size: 12px;
+	color: #fff;
+	padding: 12px 14px;
+}
+/*time stamp */
+#time{
+	margin-left: 20px;
+	font-size: 12px;
+	color: #fff;
+}
